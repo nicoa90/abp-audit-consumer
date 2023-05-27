@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>disable</Nullable>
+	  
+	<PackageId>Naz.Abp.AuditReader.Application.Contracts</PackageId>
+	<Version>7.1.0</Version>
+	<Authors>nicoa90</Authors>
+	<Description>Contracts for Naz.Abp.AuditReader.Application</Description>
+	<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+	<PackageIcon>icon.png</PackageIcon>
+	<IsPackable>true</IsPackable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Volo.Abp.Ddd.Application" Version="7.1.0" />
+    <PackageReference Include="Volo.Abp.Ddd.Application.Contracts" Version="7.1.0" />
+	<None Include="icon.png" Pack="true" PackagePath=""/>
+  </ItemGroup>
+
+</Project>
